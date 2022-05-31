@@ -10,13 +10,15 @@ body {
   align-items: center;
   gap: 20px;
   font-family: 'Outfit', sans-serif;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 main {
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  margin-top: 139px;
+
   width: 350px;
   gap: 20px;
   align-items: center;
@@ -50,7 +52,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-bottom: 110px;
+
 }
 
 .attribution a {
